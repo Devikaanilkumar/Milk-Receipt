@@ -1,0 +1,156 @@
+<html>
+<head><title>milknew</title></head>
+<style type="text/css">
+table    {   width:300px;
+             margin: 0 auto;
+                }
+table,th,td {    border:2px solid black;
+               
+                   
+            }
+</style>
+       
+<script type="text/javascript"> 
+var am=0;
+var a=0;
+var no=0;
+var c=0;
+var nu=0;
+var d=0;
+var e=0;
+var f=0;
+var g=0;
+var h=0;
+var i=0;
+var j=0;
+var k=0;
+var l=0;
+var m=0;
+var na=0;
+var o=0;
+var p=0;
+var q=0;
+var num=0;
+
+
+while(1)
+ {
+   var n=prompt("Enter your choice :\n1.200ml\n2.250ml\n3.333ml\n4.400ml\n5.500ml\n6.1L\n7.Exit");
+    n=parseInt(n);
+if(n==1)
+{ no=prompt("Enter no of packets");
+  no=parseInt(no);
+  a=a+no*12;
+  a=parseInt(a);
+  d=d+no;
+  d=parseInt(d);
+  e=e+d*12;
+  e=parseInt(e);
+}
+else if(n==2)
+{
+no=prompt("Enter no of packets");
+  no=parseInt(no);
+a=a+no*13;
+a=parseInt(a);
+ f=f+no;
+  f=parseInt(f);
+  g=g+f*13;
+  g=parseInt(g);
+}
+else if(n==3)
+{
+no=prompt("Enter no of packets");
+  no=parseInt(no);
+a=a+no*20;
+a=parseInt(a);
+ h=h+no;
+  h=parseInt(h);
+  i=i+h*20;
+  i=parseInt(i);
+}
+else if(n==4)
+{
+no=prompt("Enter no of packets");
+  no=parseInt(no);
+a=a+no*24;
+a=parseInt(a);
+ j=j+no;
+  j=parseInt(j);
+  k=k+j*24;
+  k=parseInt(k);
+}
+else if(n==5)
+{
+no=prompt("Enter no of packets");
+  no=parseInt(no);
+a=a+no*30;
+a=parseInt(a);
+ l=l+no;
+  l=parseInt(l);
+  m=m+l*30;
+  m=parseInt(m);
+}
+else if(n==6)
+{
+no=prompt("Enter no of packets");
+  no=parseInt(no);
+nu=prompt("1.Teashop\n2.Other");
+if(nu==1)
+{
+a=a+no*50;
+a=parseInt(a);
+ na=na+no;
+  na=parseInt(na);
+  o=o+na*50;
+  o=parseInt(o);
+}
+else if(nu==2)
+{
+a=a+no*60;
+a=parseInt(a);
+ p=p+no;
+  p=parseInt(p);
+  q=q+p*60;
+  q=parseInt(q);
+}
+num=na+p;
+num=parseInt(num);
+}
+
+else if(n==7)
+{
+break;
+}
+else
+{ 
+alert("Invalid Option");
+}
+}
+
+
+document.writeln("<table>");
+document.writeln("<thead><tr><th>Quantity</th>");
+document.writeln("<th>No of packets</th>");
+document.writeln("<th>Price</th>");
+document.writeln("</tr></thead><tbody>");
+document.writeln("<tr><td>"+"200ml"+"</td><td>"+d+"</td><td>"+e+"</td></tr>");
+document.writeln("<tr><td>"+"250ml"+"</td><td>"+f+"</td><td>"+g+"</td></tr>");
+document.writeln("<tr><td>"+"333ml"+"</td><td>"+h+"</td><td>"+i+"</td></tr>");
+document.writeln("<tr><td>"+"400ml"+"</td><td>"+j+"</td><td>"+k+"</td></tr>");
+document.writeln("<tr><td>"+"500ml"+"</td><td>"+l+"</td><td>"+m+"</td></tr>");
+document.writeln("<tr><td>"+"1L"+"<br>"+"Teashop"+"<br>"+"Other"+"</td><td>"+num+"<br>"+na+"<br>"+p+"</td>");
+document.writeln("<td>"+"<br>"+o+"<br>"+q+"</td></tr>");
+
+document.writeln("<tr><td>"+"Total Amount"+"</td><td>"+"</td><td>"+a+"</td></tr>");
+document.writeln("</tbody></table>");
+
+</script>
+<body></body>
+</html>
+
+
+
+
+   
+
